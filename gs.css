@@ -1,0 +1,39 @@
+/* Part 5: Class styles for speech, song, direction, and name */
+.speech {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.song {
+    font-family: 'Times New Roman', serif;
+    font-size: 14px;
+    color: black;
+    font-style: italic;
+}
+
+.name {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+/* Directions with light background and hover effect */
+.direction {
+    background-color: #f0f0f0; 
+    font-family: Courier, monospace;
+    color: black;
+    padding: 5px;
+}
+
+.direction:hover {
+    background-color: #ffd700; 
+    color: #cc0000;
+}
+
+/* Part 5: Character specific styles with unique colors */
+.yum-yum { color: #db7093; }
+.pitti-sing { color: #4682b4; }
+.peep-bo { color: #2e8b57; }
+.koko { color: #8b4513; }
