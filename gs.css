@@ -61,3 +61,9 @@ th {
     background-color: #333;
     color: white;
 }
+/* Part 9: Mouse hover shadow and border for names */
+.name:hover {
+    text-shadow: 2px 2px 8px #ff00ff; /* Interesting color and blur */
+    border: 2px dashed #333; /* Interesting border */
+    cursor: pointer;
+}
